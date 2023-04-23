@@ -78,12 +78,3 @@ def find_start_and_end(text, answer):
             skip = 0
         j += 1
     return j - i + additional_spaces - skip - dash_count, j - 1
-
-
-# def load_model(params, model_name, dir):
-#     pass
-
-# def create_pipeline(count_of_models=1):
-#     best_params_for_1 = {}
-#     best_params_for_2 = {}
-#     if count_of_models == 2:

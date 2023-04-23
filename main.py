@@ -13,7 +13,7 @@ def run_programm(pipeline):
     file_name = input()
     context = get_context_from_file(file_name)
     if context is None:
-        print("Файл не существует")
+        print("Файла не существует")
         return
     
     print("Что Вы хотите ?")
@@ -26,8 +26,7 @@ def run_programm(pipeline):
     print()
     answer = pipeline(context, task)
     print(answer)
-    print("-----------------------------------------------------------------------------------")
-    print()
+    print("-----------------------------------------------------------------------------------\n")
     
 if __name__ == "__main__":
     print("Модель загружается . . .")
